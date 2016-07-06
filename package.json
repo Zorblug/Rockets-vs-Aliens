@@ -1,0 +1,42 @@
+{
+  "name": "RocketVsAliens",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "dev:test": "npm run test -- --watch",
+    "doc": "rimraf doc && groc",
+    "start": "node server.js",
+    "test": "cross-env NODE_ENV=test mocha"
+  },
+  "description": "Jeux de space invaders de 1 à 6 joueurs en HTML5 Javascript",
+  "author": {
+    "name": "Philippe Ebersold",
+    "email": ""
+  },
+  "standard": {
+    "env": {
+      "node": true,
+      "mocha": true
+    },
+    "ignore": [
+      "/doc/",
+      "/"
+    ]
+  },
+  "dependencies": {
+    "cross-env": "^1.0.8",
+    "debug": "^2.2.0",
+    "express": "~4.9.0",
+    "jade": "~1.6.0",
+    "morgan": "~1.3.0",
+    "rimraf": "^2.5.3",
+    "serve-favicon": "~2.1.3",
+    "socket.io": "^1.4.6"
+  },
+  "devDependencies": {
+    "groc": "^0.8.0",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.1"
+  }
+}
