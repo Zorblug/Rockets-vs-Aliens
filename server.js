@@ -35,8 +35,8 @@ var serverIPaddress = new Collection();
 // // Version YUN
 
 //Version Bouchon
-serverIPaddress.add('wlan0','127.0.0.1');
-serverIPaddress.add('eth1','127.0.0.1');
+serverIPaddress.add('wlan0','192.168.10.166');
+serverIPaddress.add('eth1','192.168.10.166');
 
 //Version Bouchon
 

@@ -637,7 +637,7 @@ SpaceInvaders.Game.prototype = {
             if (!that.gameStarted) {
                 that.gameStarted = true;
 
-                //that.game.clearQR(); //QR Code sur page d'accueil
+                that.game.clearQR(); //QR Code sur page d'accueil
 
                 that.stateText.visible = false;
                 that.title.visible = false;
